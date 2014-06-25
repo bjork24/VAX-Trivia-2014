@@ -146,3 +146,45 @@ body {
  *********************************************/
 .reveal .slide-number {
   color: #268bd2; }
+
+.reveal ol,
+.reveal ul {
+  *zoom: 1; }
+  .reveal ol:before,
+  .reveal ul:before, .reveal ol:after,
+  .reveal ul:after {
+    content: " ";
+    display: table; }
+  .reveal ol:after,
+  .reveal ul:after {
+    clear: both; }
+
+.reveal h3 {
+  color: #000; }
+.reveal p {
+  color: #000;
+  line-height: 1.4;
+  font-weight: 700; }
+.reveal .slides {
+  text-align: left; }
+.reveal ol,
+.reveal ul {
+  margin-left: 1.3em;
+  color: #000;
+  line-height: 1.4;
+  font-weight: 700; }
+  .reveal ol.float,
+  .reveal ul.float {
+    float: left;
+    margin-left: 2em; }
+    .reveal ol.float:first-of-type,
+    .reveal ul.float:first-of-type {
+      margin-left: 1.3em; }
+.reveal section img {
+  margin: 0 auto;
+  display: block; }
+.reveal .photos img {
+  width: 50%;
+  margin: 0; }
+.reveal .photos h3 {
+  margin-top: .5em; }
