@@ -180,6 +180,9 @@ body {
     .reveal ol.float:first-of-type,
     .reveal ul.float:first-of-type {
       margin-left: 1.3em; }
+  .reveal ol .answer,
+  .reveal ul .answer {
+    color: #E4FF59; }
 .reveal section img {
   margin: 0 auto;
   display: block; }
